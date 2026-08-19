@@ -1,6 +1,7 @@
 import { Node, Edge } from '@xyflow/react';
 
 export type ExecutionStatus = 'idle' | 'running' | 'success' | 'error';
+export type ExecutionMode = 'simulate' | 'live';
 
 export type NodeType = 
   | 'triggerNode'
@@ -39,4 +40,13 @@ export interface ProfilerData {
   latencyMs: number;
   tokensUsed?: number;
   bigO?: string;
+}
+
+export interface SecurityAlert {
+  id: string;
+  timestamp: number;
+  nodeId: string;
+  nodeLabel: string;
+  type: 'blocked' | 'pii' | 'ok';
+  message: string;
 }
