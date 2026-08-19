@@ -17,6 +17,8 @@ export interface BaseNodeData {
   status?: ExecutionStatus;
   config?: Record<string, any>;
   onConfigClick?: () => void;
+  onDeleteClick?: () => void;
+  onDuplicateClick?: () => void;
 }
 
 export interface AppNode extends Node {
