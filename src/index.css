@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0a0a0b;
+  color: #e0e0e0;
+}
+
+/* React Flow Dark Mode Overrides */
+.react-flow__panel {
+  background-color: #1a1a1f;
+  border-radius: 8px;
+  border: 1px solid #2a2a30;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.react-flow__controls-button {
+  background-color: #1a1a1f !important;
+  border-bottom: 1px solid #2a2a30 !important;
+  fill: #e0e0e0 !important;
+}
+.react-flow__controls-button:hover {
+  background-color: #25252b !important;
+}
+.react-flow__minimap {
+  background-color: #0a0a0b !important;
+  border: 1px solid #2a2a30 !important;
+}
+.react-flow__minimap-mask {
+  fill: rgba(15, 15, 18, 0.8) !important;
+}
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background-color: #3b82f6;
+  border: 2px solid #0a0a0b;
+}

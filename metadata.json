@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise AI Agent Builder",
+  "description": "Visual drag-and-drop node editor for building distributed AI agent workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
