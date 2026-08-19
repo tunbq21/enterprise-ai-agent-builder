@@ -12,6 +12,10 @@ Welcome to the Enterprise AI Agent Visual Builder Lab! This application provides
   - **Profiler**: Track latency, token expenditure, and algorithmic complexity metrics (Big-O).
   - **Security**: Monitor AST guardrails and PII masking alerts.
 
+## 📖 Detailed User Guide
+
+For a comprehensive breakdown of every UI component, node configurations, and step-by-step practical examples (like building a Customer Support Agent), please refer to our **[Detailed User Guide](USER_GUIDE.md)**!
+
 ## How to Use the Application
 
 ### 1. Building a Workflow
